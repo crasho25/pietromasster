@@ -5,8 +5,8 @@ import asyncio
 import time
 import os
 
-TOKEN = os.environ.get('token')
-AUTORIZZATO = os.environ.get('autorizzato')
+TOKEN = os.getenv('TOKEN')
+AUTORIZZATO = os.environ.get('AUTORIZZATO')
 ctx = " "
 role_id = "488118629246959625"
 
