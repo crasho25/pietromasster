@@ -6,7 +6,7 @@ import time
 import os
 
 TOKEN = os.environ.get('token')
-AUTORIZZATO = '230432125546004490'
+AUTORIZZATO = os.environ.get('autorizzato')
 ctx = " "
 role_id = "488118629246959625"
 
