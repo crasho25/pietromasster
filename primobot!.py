@@ -4,8 +4,8 @@ from discord.ext import commands
 import asyncio
 import time
 
-TOKEN = open("ID.txt","r").readline()
-AUTORIZZATO = open("ID.txt","r").readline()
+TOKEN = open("token.js","r").readline()
+AUTORIZZATO = open("autorizzato.js","r").readline()
 ctx = " "
 role_id = "488118629246959625"
 
