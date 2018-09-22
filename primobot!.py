@@ -3,10 +3,9 @@ from discord.ext.commands import Bot
 from discord.ext import commands
 import asyncio
 import time
-import os
 
-TOKEN = os.getenv('TOKEN')
-AUTORIZZATO = os.environ.get('AUTORIZZATO')
+TOKEN = open("ID.txt","r").readline()
+AUTORIZZATO = open("ID.txt","r").readline()
 ctx = " "
 role_id = "488118629246959625"
 
