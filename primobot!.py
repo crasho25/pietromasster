@@ -32,4 +32,4 @@ async def on_message(message):
     await client.process_commands(message)
     #print () scrivi il nome di chi usa il bot	 
 	  
-client.run(TOKEN)
+client.run(process.env.token)
