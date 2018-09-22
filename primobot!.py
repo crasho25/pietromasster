@@ -3,8 +3,9 @@ from discord.ext.commands import Bot
 from discord.ext import commands
 import asyncio
 import time
+import os
 
-TOKEN = environ.get('token')
+TOKEN = os.environ.get('token')
 AUTORIZZATO = '230432125546004490'
 ctx = " "
 role_id = "488118629246959625"
