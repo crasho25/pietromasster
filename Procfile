@@ -1,1 +1,1 @@
-worker python primobot!.py
+worker: python primobot!.py
