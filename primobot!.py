@@ -4,7 +4,7 @@ from discord.ext import commands
 import asyncio
 import time
 
-TOKEN = open("ID.txt","r").readline()
+TOKEN = environ.get('token')
 AUTORIZZATO = '230432125546004490'
 ctx = " "
 role_id = "488118629246959625"
@@ -32,4 +32,4 @@ async def on_message(message):
     await client.process_commands(message)
     #print () scrivi il nome di chi usa il bot	 
 	  
-client.run(process.env.token)
+client.run(TOKEN)
