@@ -1,1 +1,1 @@
-const token = process.env.token;
+const token = process.env.TOKEN;
